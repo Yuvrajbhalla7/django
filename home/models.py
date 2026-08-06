@@ -9,7 +9,7 @@ class student(models.Model):
     file = models.FileField(null=True)
 
 
-
+  
 class car(models.Model):
     car_name = models.CharField( max_length=50)
     speed = models.IntegerField(default=50)
