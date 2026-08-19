@@ -41,7 +41,7 @@ INSTALLED_APPS = [
    
 EXTERNAL_APPS = [
      'account',
-        'home', 'vegetable'
+        'home', 'vegetable' ,'django_extensions'
     
 ]
 INSTALLED_APPS = INSTALLED_APPS + EXTERNAL_APPS
